@@ -56,7 +56,7 @@ app.use(express.static(path.join(__dirname,"/public")));
 
 app.use(
     session({
-       // store,
+        //store,
         secret:"mysecretecode",
         resave:false,
         saveUninitialized:true,
